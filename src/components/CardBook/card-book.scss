@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 8px 20px #e0e0e0, 0 0 8px #f5f5f5;
+    }
 }
 
 .card__container-img {
