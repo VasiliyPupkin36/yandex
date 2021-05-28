@@ -22,7 +22,7 @@ export default function ListBooks() {
     return (
         <div className="list-book">
             {
-                listBooks.value.map(book => <CardBook book={book} />)
+                listBooks.value.map(book => <CardBook book={book} key={book.edition_key}/>)
             }
         </div>
     );

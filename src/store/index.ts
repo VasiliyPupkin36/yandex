@@ -8,6 +8,9 @@ export interface RootState {
     search: {
         value: string,
     },
+    book: {
+        value: string,
+    },
 }
 
 export default createStore(rootReducer);
